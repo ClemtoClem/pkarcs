@@ -342,3 +342,10 @@ pkarcs.register_node("default:pine_wood")
 pkarcs.register_node("default:acacia_wood")
 pkarcs.register_node("default:aspen_wood")
 
+if minetest.get_modpath("xblocks") then
+	pkarcs.register_node("xblocks:wood_acagle")
+	pkarcs.register_node("xblocks:wood_acapine")
+	pkarcs.register_node("xblocks:wood_acaspen")
+	pkarcs.register_node("xblocks:wood_aspod")
+	pkarcs.register_node("xblocks:wood_junpine")
+end
